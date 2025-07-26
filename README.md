@@ -30,6 +30,7 @@ This project implements a complete MLOps pipeline for the California Housing dat
 │── model.joblib
 │── unquant_params.joblib
 │── quant_params.joblib
+│── quantized_model.pth
 │
 ├── requirements.txt
 ├── Dockerfile
