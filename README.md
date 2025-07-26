@@ -22,14 +22,15 @@ This project implements a complete MLOps pipeline for the California Housing dat
 ├── .github/
 │ └── workflows/
 │ └── ci.yml
-├── src/
-│ ├── train.py
-│ ├── predict.py
-│ └── quantize.py
-├── models/
-│ ├── model.joblib
-│ ├── unquant_params.joblib
-│ └── quant_params.joblib
+│
+│── train.py
+│── predict.py
+│── quantize.py
+│
+│── model.joblib
+│── unquant_params.joblib
+│── quant_params.joblib
+│
 ├── requirements.txt
 ├── Dockerfile
 └── README.md
